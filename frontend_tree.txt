@@ -1,0 +1,184 @@
+THis is a PaperBill Projects Tree Structure
+
+.
+├── .gitignore
+├── .webpack
+│   ├── main
+│   │   ├── index.js
+│   │   └── index.js.map
+│   ├── renderer
+│   │   ├── assets
+│   │   │   ├── excelImage.png
+│   │   │   ├── JournalEntry.png
+│   │   │   ├── logo.png
+│   │   │   ├── marketplace-1.png
+│   │   │   ├── marketplace-2.png
+│   │   │   ├── marketplace-3.png
+│   │   │   ├── marketplace-4.png
+│   │   │   ├── onlineStores.png
+│   │   │   ├── Theme1.png
+│   │   │   ├── Theme2.png
+│   │   │   ├── Theme3.png
+│   │   │   ├── Theme4.png
+│   │   │   ├── ThermalTheme1.png
+│   │   ├── main_window
+│   │   │   ├── index.html
+│   │   │   ├── index.js
+│   │   │   ├── preload.js
+│   │   │   ├── (Multiple hot-update.js & hot-update.json files)
+├── forge.config.js
+├── package-lock.json
+├── package.json
+├── src
+│   ├── App.jsx
+│   ├── assets
+│   │   ├── excelImage.png
+│   │   ├── Import_Items_Template.xlsx
+│   │   ├── JournalEntry.png
+│   │   ├── logo.ico
+│   │   ├── logo.png
+│   │   ├── marketplace-1.png
+│   │   ├── marketplace-2.png
+│   │   ├── marketplace-3.png
+│   │   ├── marketplace-4.png
+│   │   ├── marketplace-5.jpg
+│   │   ├── onlineStores.png
+│   │   ├── Theme1.png
+│   │   ├── Theme2.png
+│   │   ├── Theme3.png
+│   │   ├── Theme4.png
+│   │   ├── ThermalTheme1.png
+│   │   ├── userLogo.avif
+│   │   ├── userLogo.jpeg
+│   ├── components
+│   │   ├── Header.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── sales
+│   │   │   ├── SalesBillForm.jsx
+│   ├── context
+│   │   ├── LanguageContext.js
+│   ├── index
+│   │   ├── index.js
+│   ├── index.css
+│   ├── index.html
+│   ├── index.jsx
+│   ├── main.js
+│   ├── pages
+│   │   ├── AddExpenses.jsx
+│   │   ├── AddItems.jsx
+│   │   ├── AddPartyModal.jsx
+│   │   ├── AddProduct.jsx
+│   │   ├── AddSales.jsx
+│   │   ├── Banking.jsx
+│   │   ├── BusinessRegister.jsx
+│   │   ├── calculationUtils.js
+│   │   ├── CartDetails.jsx
+│   │   ├── Categories.jsx
+│   │   ├── CategoryView.jsx
+│   │   ├── CheckoutForm.jsx
+│   │   ├── ConnectShare.jsx
+│   │   ├── countryData.js
+│   │   ├── CreateStore.jsx
+│   │   ├── DeliveryChallan.jsx
+│   │   ├── EnterOtp.jsx
+│   │   ├── EstimateQuotation.jsx
+│   │   ├── Expenses.jsx
+│   │   ├── Home.jsx
+│   │   ├── InvoicePage.jsx
+│   │   ├── ItemService.jsx
+│   │   ├── JournalEntry.jsx
+│   │   ├── Language.jsx
+│   │   ├── Login.jsx
+│   │   ├── Marketplace.jsx
+│   │   ├── MoreFeatures
+│   │   │   ├── BarcodeGenerator.jsx
+│   │   │   ├── BulkUpdatedItems.jsx
+│   │   │   ├── ImportExcel.jsx
+│   │   │   ├── ImportItems.jsx
+│   │   │   ├── ImportParties.jsx
+│   │   │   ├── ItemEntry.jsx
+│   │   │   ├── MoreFeatures.jsx
+│   │   ├── MulitSelectDropdown.jsx
+│   │   ├── MyPlans.jsx
+│   │   ├── NavBar.jsx
+│   │   ├── OrderConfirmed.jsx
+│   │   ├── PartiesSuppliers.jsx
+│   │   ├── PaymentIn.jsx
+│   │   ├── PaymentOut.jsx
+│   │   ├── PrintSettings
+│   │   │   ├── DefaultThermalTheme.jsx
+│   │   │   ├── InvoicePreview.jsx
+│   │   │   ├── NotEditable.jsx
+│   │   │   ├── PrintSettingPage.jsx
+│   │   │   ├── TaxInvoice.jsx
+│   │   │   ├── Theme1.jsx
+│   │   │   ├── Theme1Base.jsx
+│   │   │   ├── Theme1Duplicate.jsx
+│   │   │   ├── Theme1Original.jsx
+│   │   │   ├── Theme1Triplicate.jsx
+│   │   │   ├── Theme2.jsx
+│   │   │   ├── Theme2Base.jsx
+│   │   │   ├── Theme2Duplicate.jsx
+│   │   │   ├── Theme2Original.jsx
+│   │   │   ├── Theme2Triplicate.jsx
+│   │   │   ├── ThermalPrinting.jsx
+│   │   ├── ProductModal.jsx
+│   │   ├── ProfilePage.jsx
+│   │   ├── PurchaseBills.jsx
+│   │   ├── PurchaseExpenses.jsx
+│   │   ├── PurchaseOrders.jsx
+│   │   ├── PurchaseReturn.jsx
+│   │   ├── Reports
+│   │   │   ├── AllParties.jsx
+│   │   │   ├── AllTransactions.jsx
+│   │   │   ├── BalanceSheet.jsx
+│   │   │   ├── BankStatement.jsx
+│   │   │   ├── BitWiseProfit.jsx
+│   │   │   ├── CashFlow.jsx
+│   │   │   ├── DayBook.jsx
+│   │   │   ├── DiscountReports.jsx
+│   │   │   ├── ExpenseReportByCategory.jsx
+│   │   │   ├── ExpenseReportByItem.jsx
+│   │   │   ├── ExpenseReports.jsx
+│   │   │   ├── FormNo27EQ.jsx
+│   │   │   ├── GST1.jsx
+│   │   │   ├── GST2.jsx
+│   │   │   ├── GST3B.jsx
+│   │   │   ├── GSTRateReport.jsx
+│   │   │   ├── GSTReports.jsx
+│   │   │   ├── ItemDetails.jsx
+│   │   │   ├── ItemReportByParty.jsx
+│   │   │   ├── ItemWiseProfitAndLoss.jsx
+│   │   │   ├── LowStockSummary.jsx
+│   │   │   ├── PartyItemWise.jsx
+│   │   │   ├── PartyWiseProfitLoss.jsx
+│   │   │   ├── PurchaseReport.jsx
+│   │   │   ├── SACReports.jsx
+│   │   │   ├── SalePurchaseByItemCategory.jsx
+│   │   │   ├── SalePurchaseByParty.jsx
+│   │   │   ├── SalePurchaseByPartyGroup.jsx
+│   │   │   ├── SalesOrderItem.jsx
+│   │   │   ├── SalesOrders.jsx
+│   │   │   ├── SalesPurchaseOrders.jsx
+│   │   │   ├── SalesReport.jsx
+│   │   │   ├── SaleSummaryByHSN.jsx
+│   │   │   ├── StockDetails.jsx
+│   │   │   ├── StockSummary.jsx
+│   │   │   ├── StockSummaryByItemCategory.jsx
+│   │   │   ├── TCSReceivable.jsx
+│   │   │   ├── TDSPayable.jsx
+│   │   │   ├── TDSReceivable.jsx
+│   │   │   ├── Reports.jsx
+│   ├── Redux
+│   │   ├── bankSlice.js
+│   │   ├── billSlice.js
+│   │   ├── expenses.js
+│   ├── renderer.js
+│   ├── Services
+│   │   ├── firebaseConfig.js
+│   │   ├── url.js
+├── tailwind.config.js
+├── webpack.main.config.js
+└── webpack.renderer.config.js
+
+

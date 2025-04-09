@@ -1,0 +1,67 @@
+.
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── uploads
+│   ├── 1738136081071-Wallpaper.png
+│   ├── 1738136345384-Wallpaper.png
+│   ├── 1738136525250-Profile.png
+│   ├── 1738137446561-Signature.jpeg
+│   ├── 1738137457838-Profile.png
+│   ├── 1738241828699-Signature.jpeg
+│   └── 1738244687642-Profile.png
+└── src
+    ├── app.js
+    ├── server.js
+    ├── config
+    │   ├── db.js
+    │   └── passport.js
+    ├── controllers
+    │   ├── authController.js
+    │   ├── backupController.js
+    │   ├── bankController.js
+    │   ├── billsController.js
+    │   ├── expensesController.js
+    │   ├── itemController.js
+    │   ├── journalEntryController.js
+    │   ├── orderController.js
+    │   ├── partyController.js
+    │   ├── paymentController.js
+    │   ├── scheduleDeliveries.js
+    │   └── settingsController.js
+    ├── middlewares
+    │   └── AuthMiddleware.js
+    ├── models
+    │   ├── User.js
+    │   ├── bank.js
+    │   ├── bills.js
+    │   ├── cart.js
+    │   ├── category.js
+    │   ├── conversions.js
+    │   ├── expenseCategory.js
+    │   ├── expenseItems.js
+    │   ├── expenses.js
+    │   ├── item.js
+    │   ├── journalEntry.js
+    │   ├── order.js
+    │   ├── paperBill.js
+    │   ├── party.js
+    │   ├── payment.js
+    │   ├── product.js
+    │   ├── schedules.js
+    │   ├── settings.js
+    │   └── units.js
+    ├── routes
+    │   ├── authRoutes.js
+    │   ├── backupRoute.js
+    │   ├── bankRoutes.js
+    │   ├── billRoutes.js
+    │   ├── expensesRoutes.js
+    │   ├── itemRoutes.js
+    │   ├── journalEntryRoutes.js
+    │   ├── orderRoutes.js
+    │   ├── partyRoutes.js
+    │   ├── paymentRoutes.js
+    │   ├── routes.js
+    │   ├── scheduleDeliveries.js
+    │   └── settingsRoutes.js
